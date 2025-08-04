@@ -14,12 +14,7 @@ public class CarMoving : MonoBehaviour
     private float enginePower = 150.0f;
     private float wheelPower = 0.35f;
     public float refreshmentRate;
-    public GameObject enemyCar1;
-    public GameObject enemyCar2;
-    public GameObject enemyCar3;
-    public GameObject enemyCar4;
-    public GameObject enemyCar5;
-    public GameObject enemyCar6;
+    public GameObject enemyCar;
     private EnemyCarScript enemyScript;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -79,15 +74,7 @@ public class CarMoving : MonoBehaviour
 
     void translateInfo()
     {
-        enemyScript = enemyCar1.GetComponent<EnemyCarScript>();
-        enemyScript.replay = replay;
-        enemyScript.giveValues(enginePower, wheelPower, startPos, startRot);
-
-        enemyScript = enemyCar2.GetComponent<EnemyCarScript>();
-        enemyScript.replay = replay;
-        enemyScript.giveValues(enginePower, wheelPower, startPos, startRot);
-
-        enemyScript = enemyCar3.GetComponent<EnemyCarScript>();
+        enemyScript = enemyCar.GetComponent<EnemyCarScript>();
         enemyScript.replay = replay;
         enemyScript.giveValues(enginePower, wheelPower, startPos, startRot);
     }
