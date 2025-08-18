@@ -33,6 +33,6 @@
 | MoveTowards                          | 36:13 |
 
 #### Suggestions and forks are welcomed here!
-<img src="https://github.com/DanielSnadon/RaceLoop/blob/main/Images/2.jpg" width="250"/>
+<img src="https://github.com/DanielSnadon/RaceLoop/blob/main/Images/2.jpg" width="550"/>
 
 © 2025 [DanielSnadon](https://github.com/DanielSnadon) All rights reserved. 
