@@ -1,4 +1,4 @@
-# RaceLoop - replay simulation
+# RaceLoop — replay system showcase
 ### The project demonstrating various demo replay systems developed on C# using cars as an example.
 #### Currently there's 6 fully working versions (also 3 versions that works not correctly but could be easily fixed)
 <img src="https://github.com/DanielSnadon/RaceLoop/blob/main/Images/7.gif" display="block" width="520"/>
